@@ -1,0 +1,35 @@
+*{
+	padding: 0;
+	margin:0;
+	box-sizing: border-box;
+}
+
+html,body{
+
+	height: 100%;
+
+
+}
+
+body{
+	background: #f56;
+	font-family: 'Helvetica';
+}
+
+.container{
+
+	width:80%;
+
+	margin:0 auto;
+	padding: 20px 0;
+}
+
+.container .content-area{
+	background: #ddd;
+	padding: 10px;
+	overflow: auto;
+}
+
+.container .content-area:hover{
+	background: #f83;
+}
