@@ -1,0 +1,14 @@
+<h1>Users</h1>
+<div class="content-area">
+
+
+	{{#if users.length}}
+		{{#each users}}
+			<h3 class="card active">{{email}}</h3>
+		{{/each}}
+	{{else}}
+
+	<h3>No Users</h3>
+
+	{{/if}}
+</div>

@@ -25,11 +25,16 @@ body{
 }
 
 .container .content-area{
-	background: #ddd;
+	background: #fff;
 	padding: 10px;
 	overflow: auto;
 }
 
-.container .content-area:hover{
+.container .content-area .active:hover{
 	background: #f83;
+}
+
+.container .card{
+	padding: 5px;
+	border-bottom: 1px solid #ccc;
 }
